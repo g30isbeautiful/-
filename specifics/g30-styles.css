@@ -65,11 +65,6 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.nav-links a.active {
-    background-color: #00664a;
-    border-radius: 5px;
-}
-
 .user-options {
     display: flex;
 }
@@ -238,4 +233,20 @@ body {
 .solution-list a:hover {
     text-decoration: none;
     border-bottom: 1px solid #004231;
+}
+
+.course-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.course-card-link:hover .course-card {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.course-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
